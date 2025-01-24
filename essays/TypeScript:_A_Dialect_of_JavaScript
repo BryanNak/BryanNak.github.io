@@ -4,7 +4,7 @@ type: essay
 title: "TypeScript: A Dialect of JavaScript"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-23
-published: false
+published: true
 labels:
   - TypeScript
   - JavaScript
