@@ -36,11 +36,11 @@ printHelloWorld();
 ```
 The hardest part for myself was definitely learning all the new syntax and restructuring of code. When I first saw arrow functions, I couldn't wrap my head around it because I was so hardwired to read JavaScript code, but I am slowly but surely getting better at understanding TypeScript syntax. 
 
-Another thing that threw me off was the way that variables are handled, since TypeScript is object-oriented friendly. All of a sudden I couldn't declare variables by just `var` but had to use `let` and `const`. Parameters and return types are all new too, since it is now better to *specify* them with types such as `: number` or `: string`...a concept I have never heard of in JavaScript.
+Another thing that threw me off was the way that variables are handled, since TypeScript is **object-oriented** friendly. All of a sudden I couldn't declare variables by just `var` but had to use `let` and `const`. Parameters and return types are all new too, since it is now better to *specify* them with types such as `: number` or `: string`...a concept I have never heard of in JavaScript.
 
 
 ## Practicing a new dialect
 
-I may or may not have exaggerated the differences of JavaScript and TypeScript syntax by just a little, but nonetheless, it is still something that needs to be practiced so that I can cement better practices in my code.
+I may or may not have *exaggerated* the differences of JavaScript and TypeScript syntax by just a little, but nonetheless, it is still something that needs to be practiced so that I can cement better practices in my code.
 
-Doing WODs, which might include creating a simple function that converts Fahrenheit to Celsius in TypeScript, has been useful in my opinion because not only does it allow me to get familiar with TypeScript, but also improve my coding skills on the fly. I know that during the interview process for a job it is most likely that you will be asked to code some sort of program, and coding under pressure is not my *forte*, but thankfully practice WODs allow me to work on that.
+Doing WODs, which might include creating a simple function that converts Fahrenheit to Celsius in TypeScript, has been useful in my opinion because not only does it allow me to get familiar with TypeScript, but also improve my coding skills under pressure. I know that during the interview process for a job it is most likely that you will be asked to code some sort of program, and coding under pressure is not my *forte*, but thankfully practice WODs allow me to work on that.
