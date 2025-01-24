@@ -5,7 +5,7 @@
     "picture": "https://github.com/BryanNak.png",
     "email": "bn29@hawaii.edu",
     "website": "https://BryanNak.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "summary": "I am currently studying for a Bachelor of Science in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I am expected to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "BryanNak", "url": "https://github.com/BryanNak" },
@@ -40,13 +40,14 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "",
+      "company": "Frank DeLima's Student Enrichment Program Inc.",
+      "position": "Personal Assistant",
       "website": "",
       "startDate": "2022-06-10",
       "endDate": "2025-01-09",
-      "summary": "",
+      "summary": "Provided support and assistance for my employer with a variety of tasks.",
       "highlights": [
+        
       ]
     }
   ],
