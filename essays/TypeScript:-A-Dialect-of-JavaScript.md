@@ -51,3 +51,5 @@ Another thing that threw me off was the way that variables are handled, since Ty
 I may or may not have *exaggerated* the differences of JavaScript and TypeScript syntax by just a little, but nonetheless, it is still something that needs to be practiced so that I can cement better practices in my code.
 
 Doing WODs, which might include creating a simple function that converts Fahrenheit to Celsius in TypeScript, has been useful in my opinion because not only does it allow me to get familiar with TypeScript, but also improve my coding skills under pressure. I know that during the interview process for a job it is most likely that you will be asked to code some sort of program, and coding under pressure is not my *forte*, but thankfully practice WODs allow me to work on that.
+
+Overall, learning the ins and outs of TypeScript has been interesting, and I am looking forward to improving my coding practices more and more as time goes on. Old, bad habits need to go and improved habits of specifying variable types and function return types are going to takeover.
