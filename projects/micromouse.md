@@ -1,39 +1,61 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+image: img/tetrahedron.png
+title: "Shape Properties"
+date: 2023
 published: true
 labels:
-  - Robotics
-  - Arduino
   - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - OOP
+summary: "A simple shape properties calculator for 7 shapes that I developed for ICS 212."
 ---
+<p align="center">
+<img class="img-fluid" width="400" src="../img/cube.png">
+</p>
+This is a simple shape properties calculator for seven 2D and 3D geometrical shapes that I created in C++. The program will display a list from 0-6 with each number associated with a shape and give the user the choice to choose a shape. The user can input 7 otherwise to quit the program. The program takes an integer from 1 to 7 from the user, asks for additional information about the shape, and calculates and prints basic properties of the shape that the user selected.   
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+Here is an example of obtaining some properties of a cube:
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
-
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+```
+user:~$ ./program
+Select an object from the menu (enter 7 to quit).
+        0. Circle
+        1. Sphere
+        2. Cylinder
+        3. Square
+        4. Cube
+        5. Triangle
+        6. Tetrahedron
+4
+Enter the Cube's side: 10
+The Cube's surface area = 600
+The Cube's volume = 1000
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+This program was fundamental for learning the basics of class hierarchy and how I can manipulate class properties down the hierarchy. At the time of taking this class, class hierarchy was not something that I was comfortable with albeit being a simple concept in hindsight. In science, class hierarchy is used for biological classifications and similarly in coding, it is used in the same way. The parent abstract Shape class is used to provide basic details for all the shapes while the latter classes can spawn their own specifics within themselves.
+
+```cpp
+class Shape {
+	public:
+		/** Returns the name of the class. */
+		virtual const char* name() const = 0;
+		/** Prints the area or surface area, and volume of the object. */
+		virtual void printDetails() const = 0;
+		/**
+		 * Prompts the user to enter a radius, side, and/or height
+		 * of the object and set the appropriate data member(s).
+		 */
+		virtual void inputData() = 0;
+		/** Calculates and returns the area or surface area of the object. */
+		virtual double area() const = 0;
+		/** Calculates and returns the volume of the object. */
+		virtual double volume() const {
+			return 0.0;
+		}     
+};   
+```
+By developing this program, I could better visualize how class hierarchy could be used in coding. There are many cases in object oriented programming where you might want a template of a multitude of objects similar in structure so that you don't have to be redundant in the code. This concept is so simple, yet sometimes I catch myself not even thinking about how I could simplify code by using this idea of creating a template that can generalize to various objects without being to specific.
+<hr>
+
+Source code: <a href="https://github.com/BryanNak/Shape-Properties-Calculator"><i class="large github icon "></i>BryanNak/Shape-Properties-Calculator</a>
