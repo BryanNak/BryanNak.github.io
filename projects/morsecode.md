@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/morse-code-translator/morse-code.png
+image: img/morse-code.png
 title: "Morse Code Translator"
 date: 2023
 published: true
@@ -10,7 +10,7 @@ labels:
 summary: "A simple International Morse Code translator that I developed for ICS 212."
 ---
 
-<img class="img-fluid" src="../img/morse-code-translator/morse.png">
+<img class="img-fluid" src="../img/morse.png">
 
 This is a simple International Morse Code translator that I developed in C. The program takes in morse code input from the user using '.', '-', and '/' as dots, dashes, and space respectively. Each line of morse code is separated by a space to denote that the next character will be created. When the program is ran with a given input from the user, a single line of the translated code will be presented in English in the CLI.
 
@@ -51,4 +51,4 @@ Another key concept in coding are nested for loops which is used in this program
 ```
 <hr>
 
-Source code: <a href="https://github.com/BryanNak/morse-code-translator"><i class="large github icon "></i>BryanNak/morse-code-translator</a>
+Source code: <a href="https://github.com/BryanNak/Morse-Code-Translator"><i class="large github icon "></i>BryanNak/Morse-Code-Translator</a>
