@@ -12,16 +12,15 @@ summary: "A simple International Morse Code translator that I developed for ICS 
 <p align="center">
 <img class="img-fluid" width="400" src="../img/morse-code-transformed.png">
 </p>
-This is a simple International Morse Code translator that I developed in C. The program takes in morse code input from the user using '.', '-', and '/' as dots, dashes, and space respectively. Each line of morse code is separated by a space to denote that the next character will be created. When the program is ran with a given input from the user, a single line of the translated code will be presented in English in the CLI.
-
-Here is an example of translating the phrase "hello world" from morse code to CLI:
+This is a simple International Morse Code translator that I developed in C. The program takes in Morse code input from the user using '.', '-', and '/' as dots, dashes, and spaces, respectively. Each line of Morse code is separated by a space to denote that the next character will be created. When the program is run with given input from the user, a single line of the translated code will be presented in English in the CLI.
+Here is an example of translating the phrase "hello world" from Morse code to CLI:
 
 ```
 user:~$ ./program .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 user:~$ hello world
 ```
 
-Despite being quite a simple program, I learned key concepts of creating a functional program. There are many cases which can break a program and I may not have discovered all of them for this program, but I did implement two error checks so that the first input of the command line argument has to be "./program" and second, that there are at least two command line arguments (including "./program") or else a error will be printed.
+Despite being quite a simple program, I learned key concepts of creating a functional program. There are many cases which can break a program and I may not have discovered all of them for this program, but I did implement two error checks so that the first input of the command line argument has to be "./program" and second, that there are at least two command line arguments (including "./program") or else an error will be printed.
 
 ```c
 //checks if the first command line argument is "./program". If not, exit program
@@ -34,7 +33,7 @@ Despite being quite a simple program, I learned key concepts of creating a funct
 		printf("Error: At least 2 command line arguments are expected, only 1 present. Enter Morse Code on the command line.\n");
 	}
 ```
-Another key concept in coding are nested for loops which is used in this program to traverse through a morse code array containing the character associated with a line of morse code. At the time nested loops had been quite a difficult concept to wrap my head around but by implementing one into a tool which can be visually simpler to follow then just letters, the concept clicked a lot easier in my head. Here is a code snippet of the nested loop:
+Another key concept in coding is nested for loops, which is used in this program to traverse through a Morse code array containing the character associated with a line of Morse code. At the time, nested loops had been quite a difficult concept to wrap my head around, but by implementing one into a tool that can be visually simpler to follow than just letters, the concept clicked a lot easier in my head. Here is a code snippet of the nested loop:
 ```c
 //loop through the command line input and store into string1 variable every loop
 	for(i = 1; i < argc; i++) {
