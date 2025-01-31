@@ -8,7 +8,7 @@ published: true
 labels:
   - Python
   - Data Science
-  - Jupyter Notebook
+  - Machine Learning
 summary: "A program which utilizes Principal Component Analysis in analyzing and converting an image into a compressed version of itself. This program was developed for my ICS 235 course."
 ---
 
