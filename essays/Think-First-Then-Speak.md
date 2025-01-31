@@ -10,9 +10,9 @@ labels:
   - Answers
   - StackOverflow
 ---
-
-<img width="300px" class="rounded float-start pe-4" src="../img/rtfm.png">
-
+<p align = "center">
+<img width="350px" class="rounded pe-4" src="../img/rtfm.png">
+</p>
 ## Answers to those who search
 Questions are constants in our lives and are used in all sorts of ways. You may hear the phrase quite often as a child or student that there are no such things as "dumb questions." However, that is not always the case. There are times when questions, contrary to the popular saying, are definitely through skin and bone dumb. Knowing how to ask questions is unbeknownst to some people, a skill that, like any other, must be practiced in order to get better at. A good example would be of this person asking about the [processing time of a sorted vs. unsorted array](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array). They wrote their observations with the code provided about how sorting some data took 1.93 seconds and without the code that sorts the data, it took 11.54 seconds. The whole code snippet is provided:
 
