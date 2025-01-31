@@ -24,7 +24,7 @@ This project allowed me to see the workflow of data science in terms of analyzin
 It took quite some time to learn and understand what exactly PCA is but through countless hours of studying and googling I could somewhat wrap my head around what its uses are. Besides learning how PCA works, I also learned how the python libraries worked as well by reading the documentation as well as outside research. It was a challenging objective to get to but seeing the final result made everything make sense just through one graphic visual of how different number of components used can change the image quality:
 
 <p>
-<img class = "img-fluid" width= "200" src = "../img/compressedgraphic.png>
+<img class = "img-fluid" width= "200" src = "../img/compressedgraphic.png">
 </p>
     
 <hr>
