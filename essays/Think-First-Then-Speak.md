@@ -4,7 +4,7 @@ type: essay
 title: "Think First Then Speak"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-30
-published: false
+published: true
 labels:
   - Questions
   - Answers
