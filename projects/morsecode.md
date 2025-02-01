@@ -7,6 +7,8 @@ date: 2023
 published: true
 labels:
   - C
+  - CLI Application
+  - Text Encoding
 summary: "A simple International Morse Code translator that I developed for ICS 212."
 ---
 <p align="center">

@@ -8,6 +8,7 @@ published: true
 labels:
   - C++
   - OOP
+  - Geometry
 summary: "A shape properties calculator for 7 shapes that I developed for ICS 212."
 ---
 <p align="center">
