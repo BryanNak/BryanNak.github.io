@@ -10,8 +10,9 @@ labels:
   - Typescript
   - ESLint
 ---
-
-<img width="700px" class="rounded pe-4" align = "center" src="../img/unwritten-laws-of-code/xkcd-coding-standard.png">
+<p align = "center">
+<img width="700px" class="rounded pe-4" src="../img/unwritten-laws-of-code/xkcd-coding-standard.png">
+</p>
 
 ## The Road to Better Code
 If I were to look back at the very first program I wrote, I would probably wince at the sight of:
