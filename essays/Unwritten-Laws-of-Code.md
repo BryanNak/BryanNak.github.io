@@ -20,18 +20,29 @@ If I were to look back at the very first program I wrote, I would probably wince
 - lack of proper documentation
 - *very* useless variable names
 
-That was only the beginning, however, and overtime I have gotten better (for the most part) at fixing these issues in my code by learning to code standards which are generally accepted as such. The beauty of coding is that there are so many ways to achieve a goal in programming, but there are most definitely "wrong" ways of writing code.
+That was only the beginning, however, and overtime I have gotten better (for the most part) at fixing these issues in my code by learning to code standards which are generally accepted as such. The beauty of coding is that there are so many ways to achieve a goal in programming, but there are most definitely "wrong" ways of writing code and everyone starting off has definitely written unnecessary line of code in their program.
 
 ## A Nightmare
-Imagine you were told to review some code from a beginner programmer, and upon reviewing, they wrote an entire for loop which prints out elements in an array, all on **one** line; a cursed dream no one should ever have to lay their eyes upon.
+Imagine you were told to review some code from a beginner programmer, and upon reviewing, they wrote an entire for loop which prints out elements in an array, all on **one** line:
+```typescript
+for(var i =0;i<array.length;i++) {console.log(i);};
+```
+A cursed nightmare no one should ever have to lay their eyes upon. No proper indentation, spacing, and to top it all of, it's all on one line.
 
 To mitigate this problem, coding standards can easily be taught and passed on so that this situation does not happen again. Standards may range from just a few to hundreds depending on who you ask, but some examples could be:
-Commenting code
+- Commenting code
 - proper indentation
 - clean formatting (ambiguous but basically not spaghetti code)
 
 There are many more out there, but those are some basic examples which can not only be helpful to yourself, but others in the future who may happen to stumble upon your code. Even when learning a new programming language, it is crucial to confine to the unwritten laws of code: coding standards.
 
+The code above with coding standards would look more like:
+```typescript
+//print out each element in the array
+for (let i = 0; i < array.length; i++) {
+  console.log(i);
+}
+```
 ## Applied Constraints
 Recently I have been learning TypeScript to write simple programs, and due to its derivation from JavaScript, many things are still valid when using TypeScript, such as the use of `var` which is pretty much committing a sacrilege. Thankfully, **ESLint** exists and can help break this habit. It helps immensely with writing more clear-cut explicit code and because I have to take the time to fix my errors, I am also given an opportunity to see where I am doing things wrong and how I can avoid them in the future.
 
