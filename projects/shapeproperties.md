@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/tetrahedron.png
+image: img/shapeproperties/tetrahedron.png
 title: "Shape Properties"
 date: 2023
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "A shape properties calculator for 7 shapes that I developed for ICS 212."
 ---
 <p align="center">
-<img class="img-fluid" width="400" src="../img/cube.png">
+<img class="img-fluid" width="400" src="../img/shapeproperties/cube.png">
 </p>
  This is a simple shape properties calculator for seven 2D and 3D geometrical shapes that I created in C++. The program will display a list from 0 to 6 with each number associated with a shape (circle, sphere, cylinder, square, cube, triangle, tetrahedron) and give the user the choice to choose a shape. The user can input 7 otherwise to quit the program. The program takes an integer from 1 to 7 from the user, asks for additional information about the shape, and calculates and prints basic properties of the shape that the user selected.
 

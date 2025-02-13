@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 <p align = "center">
-<img width="350px" class="rounded pe-4" src="../img/rtfm.png">
+<img width="350px" class="rounded pe-4" src="../img/think-first-then-speak/rtfm.png">
 </p>
 
 ## Answers to those who search

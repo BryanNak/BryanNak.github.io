@@ -11,7 +11,7 @@ labels:
   - Web Development
 ---
 <p align = "center">
-<img width="600px" class="mx-auto d-block" src="../img/typescript logo.png">
+<img width="600px" class="mx-auto d-block" src="../img/typescript:-a-dialect-of-javascript/typescript logo.png">
 </p>
 
 Delving into TypeScript has been a familiar yet unchartered territory, similar to a feeling of *Déjà vu*. When I was in high school, I had taken multiple coding classes which introduced me to front-end web development and the main languages involved: HTML, CSS, and **JavaScript**. During this time I had dabbled in some *ES6* which albeit on paper is better than *ES5*, I was stubborn in learning the new syntax, and I didn't think much of it. Little did I know that it would come back around, but this time with a different color and a different *name*... 
@@ -25,7 +25,7 @@ About a week ago I did a nice (re)introduction to JavaScript on FreeCodeCamp's [
 ### JavaScript 2.0
 
 <p align="right">
-<img width = "300px" style = "float:right" src = "../img/ts-js.png">
+<img width = "300px" style = "float:right" src = "../img/typescript:-a-dialect-of-javascript/ts-js.png">
 </p>
 
 Doing the *ES6* portion of the certification felt like learning the dialect of a language that you already knew and got comfortable using. After all the years I was used to JavaScript, learning *ES6* and eventually TypeScript (which uses the same syntax + some extra goodies) felt like reading Early Modern English—comprehensible but, at the same time, not really.
@@ -37,7 +37,7 @@ console.log("Hello World!");
 ```
 *could* turn into:
 ```javascript
-const printHelloWorld = () => console.log("Hello World!);
+const printHelloWorld = () => console.log("Hello World!");
 printHelloWorld();
 ```
 

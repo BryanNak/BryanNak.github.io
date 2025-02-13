@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/telegraph.png
+image: img/morsecode/telegraph.png
 title: "Morse Code Translator"
 date: 2023
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "A simple International Morse Code translator that I developed for ICS 212."
 ---
 <p align="center">
-<img class="img-fluid" width="400" src="../img/morse-code-transformed.png">
+<img class="img-fluid" width="400" src="../img/morsecode/morse-code-transformed.png">
 </p>
 This is a simple International Morse Code translator that I developed in C. The program takes in Morse code input from the user using '.', '-', and '/' as dots, dashes, and spaces, respectively. Each line of Morse code is separated by a space to denote that the next character will be created. When the program is run with given input from the user, a single line of the translated code will be presented in English in the CLI.
 Here is an example of translating the phrase "hello world" from Morse code to CLI:
