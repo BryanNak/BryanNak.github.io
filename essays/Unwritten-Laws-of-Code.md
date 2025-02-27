@@ -10,7 +10,7 @@ labels:
   - Typescript
   - ESLint
 ---
-<p align = "center">
+<p style="align: center">
 <img width="700px" class="rounded pe-4" src="../img/unwritten-laws-of-code/xkcd-coding-standard.png">
 </p>
 
