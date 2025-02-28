@@ -38,8 +38,8 @@ I think that using Bootstrap 5 was a definite step-up from raw HTML and CSS beca
 
 
 <p align="center">
-  <img src="../img/front-end-fun!/original.jpeg" width="800" />
-  <img src="../img/front-end-fun!/copy.jpeg" width="800" />
+  <img src="../img/front-end-fun!/original.jpeg" width="600" />
+  <img src="../img/front-end-fun!/copy.jpeg" width="600" />
 </p>
 
 *Left is original. Right is copy made with Bootstrap 5*
