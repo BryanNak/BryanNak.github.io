@@ -27,7 +27,7 @@ The first time I used Bootstrap 5, I thought to myself, "Wow, this is horrible. 
 ## Rebuilding the Internet (kind of)
 During my attempt at recreating the Internet Archive webpage, I didn't realize at the time how much of an easier time I was having coding compared to if I were to do everything the hard way. Creating a navbar was made a lot simpler by simply adding the class `navbar` to a nav tag. I no longer had to worry about spacing the elements in the navbar because I could just put them in an unordered list, and Bootstrap took care of the heavy lifting. I didn't have to worry about padding or margins or spacing every single element (for the most part) anymore because Bootstrap would do all of that behind the scenes when I invoked certain classes on different elements. My main gripe about UI frameworks is that it works well when it *does* work, but there are times when  I run into the same problem as when I use HTML and CSS: not being able to center elements. I'm not sure what it is, but I can **never** center things, even if my life depended on it. It would be unfair to say that this is a shortcoming of Bootstrap 5, however because this is more of a user issue.
 
-## Is it worth it?
+### Is it worth it?
 I think that using Bootstrap 5 was a definite step-up from raw HTML and CSS because the amount of time cut from worrying about the specifics was incredible, and UI frameworks don't seem to have that high of a learning curve. Sure, at the beginning it may seem pointless, but after you experience how seamless the HTML coding experience is with it, it'll be hard to turn back.
 
 <br><br>
@@ -38,8 +38,8 @@ I think that using Bootstrap 5 was a definite step-up from raw HTML and CSS beca
 
 
 <p align="center">
-  <img src="../img/front-end-fun!/original.jpeg" width="500" />
-  <img src="../img/front-end-fun!/copy.jpeg" width="500" />
+  <img src="../img/front-end-fun!/original.jpeg" width="800" />
+  <img src="../img/front-end-fun!/copy.jpeg" width="800" />
 </p>
 
 *Left is original. Right is copy made with Bootstrap 5*
