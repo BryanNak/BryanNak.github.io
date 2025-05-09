@@ -9,8 +9,8 @@ labels:
   - Software Engineering
   - Artificial Intelligence
 ---
-<p style="align: center">
-<img width="700px" class="rounded pe-4" src="../img/the-talk-of-the-town/ml.jpg">
+<p style="text-align: center">
+  <img width="700px" class="rounded pe-4" src="../img/the-talk-of-the-town/ml.jpg">
 </p>
 
 ## Surge of Artifical Intelligence
