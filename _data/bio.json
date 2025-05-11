@@ -14,17 +14,28 @@
   },
   "interests": [
     { "name": "Data Science" },
-    { "name": "Machine Learning" },
-    { "name": "Software Engineering" }
+    { "name": "Machine Learning" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Python", "Javascript", "HTML", "CSS" ]
+      "name": "Languages",
+      "keywords": [ "C", "C++", "Java", "Python", "Javascript", "HTML", "CSS", "React", "Bootstrap", "SQL", "Numpy" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Git/GitHub" ]
+      "name": "Frameworks and Libraries",
+      "keywords": [ "React", "Bootstrap", "next.js", "Numpy", "Pandas", "Matplotlib", "Scikit-learn" ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [ "PostgreSQL" ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [ "VS Code", "Eclipse", "Jupyter Notebook", "Git/GitHub", "Anaconda", "pgAdmin" ]
+    },
+    {
+      "name": "OS",
+      "keywords": [ "MacOS", "Windows", "Linux" ]
     }
   ],
   "education": [
