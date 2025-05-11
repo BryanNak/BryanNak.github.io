@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 <p style="text-align: center">
-  <img width="700px" class="rounded pe-4" src="../img/the-talk-of-the-town/ml.jpg">
+  <img width="700px" class="rounded pe-4" src="../img/the-essence-of-software-engineering/softwareengineering.jpg">
 </p>
 
 ## The Journey of Problem Solving
