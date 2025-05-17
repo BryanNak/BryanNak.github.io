@@ -19,7 +19,7 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": [ "C", "C++", "Java", "Python", "Javascript", "HTML", "CSS", "React", "Bootstrap", "SQL", "Numpy" ]
+      "keywords": [ "C++", "Java", "Python", "Typescript", "HTML", "CSS", "SQL", "Matlab" ]
     },
     {
       "name": "Frameworks and Libraries",
@@ -46,6 +46,10 @@
       "startDate": "2022-09-22",
       "endDate": "Present",
       "courses": [
+        "ICS 235 - Machine Learning Methods",
+        "ICS 311 - Algorithms",
+        "ICS 314 - Software Engineering",
+        "MATH 372 - Elementary Probability and Statistics"
       ]
     }
   ],
@@ -58,7 +62,9 @@
       "endDate": "2025-01-09",
       "summary": "Provided support and assistance for my employer with a variety of tasks.",
       "highlights": [
-        
+        "Worked in a live entertainment fast-paced environment with a variety of tasks.",
+        "Coordinated with various departments of different organizations to ensure smooth operations.",
+        "Assisted with sales and marketing of merchandise."
       ]
     }
   ],
